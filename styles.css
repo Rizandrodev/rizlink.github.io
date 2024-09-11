@@ -1,0 +1,37 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-color: #1e1e1e;
+    border-radius:10px ;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    max-width: 80%;
+}
+.profile{
+    width: 100PX;
+    height: 100PX;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3PX SOLID #ffff;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 20px;
+    background-color:black ;
+    text-decoration: none;
+
+    p{
+        color: #ffff;
+    }
+}
